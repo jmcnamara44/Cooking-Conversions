@@ -13,39 +13,40 @@
       <h1>Converting Cooking Units</h1>
       <form class="gallonsToLiters">
         <div class="form-group">
-          <label for="gallons">Gallons</label>
+          <label for="gallons">Gallons to Liters</label>
           <input id="gallons" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="liters">Liters</label>
-          <input id="liters" class="form-control" type="text">
-        </div>
         <button class="btn btn-primary" type="submit">Submit</button>
       </form>
+      <div id="gallonsLitersResult" class="result">
+        <h5><span class="gallons"></span> gallons convert to <span id="output1"></span> liters.</h5>
+      </div>
 
-      <form class="poundsToKilograms">
-        <div class="form-group">
-          <label for="pounds">Pounds</label>
-          <input id="pounds" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="kilograms">Kilograms</label>
-          <input id="kilograms" class="form-control" type="text">
-        </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
-      </form>
 
-      <form class="gramsToOunces">
-        <div class="form-group">
-          <label for="grams">Grams</label>
-          <input id="grams" class="form-control" type="text">
+
+        <form class="poundsToKilograms">
+          <div class="form-group">
+            <label for="pounds">Pounds to Kilograms</label>
+            <input id="pounds" class="form-control" type="text">
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <div id="poundsToKilogramsResult" class="result">
+          <h5><span class="pounds"></span> pounds convert to <span id="output2"></span> kilograms.</h5>
         </div>
-        <div class="form-group">
-          <label for="ounces">Ounces</label>
-          <input id="ounces" class="form-control" type="text">
+
+
+
+        <form class="gramsToOunces">
+          <div class="form-group">
+            <label for="grams">Grams to Ounces</label>
+            <input id="grams" class="form-control" type="text">
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <div id="gramsToOuncesResult" class="result">
+          <h5><span class="grams"></span> grams convert to <span id="output3"></span> ounces.</h5>
         </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
-      </form>
 
     </div>
   </body>
